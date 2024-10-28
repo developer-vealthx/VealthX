@@ -34,7 +34,7 @@ const Fold3 = () => {
   }, []);
 
   return (
-    <div className='w-full h-screen flex justify-center items-center'>
+    <div className='w-full h-1/2 sm:h-screen flex justify-center items-center mt-20'>
       <video ref={videoRef} src={video1} className='w-[90%]' />
     </div>
   );

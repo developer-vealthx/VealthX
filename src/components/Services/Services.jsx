@@ -47,7 +47,7 @@ const Services = () => {
             },
             {
               title: "Emergency Services",
-              content: "Offers immediate support during critical financial or legal situations involving asset management. Whether it's urgent asset recovery, legal assistance, or rapid updates to asset plans, this feature ensures that you can respond quickly to unforeseen circumstances. It provides peace of mind by offering timely solutions and expert guidance during emergencies."
+              content: "Emergency Services -At Vealthx, we offer rapid support for navigating medical insurance claims and critical illness riders. Our dedicated team is here to assist you in understanding your policy benefits, streamlining the claims process, and securing timely updates on your coverage. With our expertise, you can confidently manage unexpected health challenges, ensuring that you receive the support you need when it matters most."
             },
             {
               title: "Wealth Management APIs",

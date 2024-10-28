@@ -11,11 +11,11 @@ const Fold5 = () => {
   const faqs = [
     {
       question: "Who is Vealthx?",
-      answer: "We are a distinguished financial product and services firm that collaborates with account aggregators and leading banks, insurance companies, government entities, mutual fund providers, and various financial institutions. Our core commitment lies in delivering top-notch wealth management solutions to individuals and facilitating the retrieval of lost or unclaimed assets within the financial system. Utilizing our state-of-the-art technology platform, 'Vealthx,' clients can seamlessly uncover financial assets, benefit from expert wealth management advice, investigate unclaimed assets, engage in investment opportunities, and obtain comprehensive net worth summaries."
+      answer: "Vealthx is a platform designed to help individuals manage their financial assets and navigate the complexities of wealth management. It offers tools for discovering, tracking, and recovering unclaimed or undiscovered assets, along with features for estate planning, such as will creation. By consolidating various financial resources into a single, userfriendly dashboard, Vealthx empowers users to take control of their financial futures, ensuring that they can secure and manage their wealth effectively. The platform aims to simplify the financial recovery process and provide guidance and support to users throughout their journey."
     },
     {
-      question: "What is the problem with Unclaimed assets which Indian families facing today?",
-      answer: "Many Indian families now have the opportunity to reclaim lost or unclaimed ancestral assets, such as shares, debentures, deposits, bank accounts, mutual funds, insurances, and other investments. VealthX empowers investors to recover these assets from financial institutions and the IEPF Authority."
+      question: "What obstacles do Indian families face concerning unclaimed assets today?",
+      answer: "Indian families face several obstacles regarding unclaimed assets today, including:<ul style= 'list-style-type: disc; padding-left:3%'><li><strong>Lack of Awareness: </strong>Many families are unaware of the existence of unclaimed assets, which can include bank accounts, insurance policies, and property.</li><li><strong>Complexity of Recovery: </strong>The process of recovering unclaimed assets can be complex and bureaucratic, often requiring extensive documentation and legal procedures.</li><li><strong>Inheritance Issues: </strong>Disputes over asset distribution among family members can arise, particularly if clear records or wills are not available.</li><li><strong>Limited Access to Information: </strong>Accessing information about unclaimed assets can be challenging due to fragmented databases and lack of centralized resources.</li><li><strong>Legal and Regulatory Hurdles: </strong>Families may encounter legal challenges or regulatory requirements that complicate the recovery process.</li><li><strong>Emotional Stress: </strong>The search for unclaimed assets can be emotionally taxing, especially during times of loss or transition.</li><li><strong>Time-Consuming Processes: </strong>The lengthy procedures involved in identifying and claiming assets can lead to frustration and delays.</li></ul> Addressing these obstacles can empower families to recover and manage their financial resources more effectively."
     },
     {
       question: 'Why do assets become "Unclaimed"?',
@@ -23,11 +23,11 @@ const Fold5 = () => {
     },
     {
       question: "What are the services provided by VealthX?",
-      answer: "<ol> <li><b>Net Worth Overview:</b> Comprehensive display of your total net worth.</li> <li><b>Inheritance Details:</b> Detailed report of your inherited assets.</li> <li><b>Missing Wealth Report:</b> Identification and reporting of unclaimed wealth.</li> <li><b>Nominee Registration/Update:</b> Efficient management of nominee information for your assets.</li> <li><b>Missing Wealth Recovery:</b> Full assistance in claiming unclaimed wealth.</li> <li><b>Inheritance Claims:</b> Support in claiming your rightful inheritance.</li> <li><b>KYC Compliance Services:</b> Streamlined Know Your Customer (KYC) verification services.</li> <li><b>Dynamic Will Management:</b> Make a dynamic, keep it always up to date</li> <li><b>VealthX Expats:</b> Identification and recovery of assets located outside India.</li> <li><b>Insurance Plan Overview:</b> Summary and management of your insurance plans.</li> <li><b>Expert Consultation:</b> Connect with VealthX agents and legal experts for professional advice.</li></ol>"
+      answer:"Vealthx offers a range of services designed to help individuals manage and recover their financial assets effectively. These services include:<ul  style= 'list-style-type: disc; padding-left:3%'> <li><b>Asset Discovery: </b>  Identifies unclaimed or forgotten assets such as bank accounts, insurance policies, and retirement funds by searching multiple databases.</li> <li><b>Claims Management:</b> Simplifies the process of initiating and managing claims for discovered assets, providing step-by-step guidance to ensuresuccessful recovery.</li> <li><b>Asset Aggregation: </b> Consolidates all discovered assets into a single dashboard, allowing users to easily manage and track their financial portfolio in real-time.</li> <li><b>Will Creation: </b> Enables users to draft and customize legal wills online, ensuring that their assets are distributed according to their wishes while providing guidance on maintaining and updating the will. </li> <li><b>Legal Support: </b> Offers resources and assistance to navigate legal or bureaucratic challenges associated with asset recovery and estate planning.</li> <li><b>Education and Resources: </b> Delivers informative content and resources to educate users about asset management, estate planning, and financialliteracy</li> </ul>These services empower individuals to take control of their financial futures, ensuring they can recover, manage, and secure their assets effectively."
     },
     {
-      question: "Who is Vealthx Agent? How can he help?",
-      answer: "VealthX Agents are professional financial advisors dedicated to supporting you with comprehensive wealth management services. They assist in locating unclaimed funds, guiding you through the recovery process, and ensuring peace of mind. Our agents can also provide expert guidance on all the services offered by VealthX, as listed previously."
+      question: "What does a Vealthx advisor do, and how can they help you unlock your financial potential?",
+      answer: "Vealthx Advisors are professional financial experts dedicated to supporting you with comprehensive wealth management services. They assist in locating unclaimed funds, guiding you through the recovery process, and ensuring peace of mind. Our advisors can also provide expert guidance on all the services offered by Vealthx."
     },
     {
       question: "Who can use the service of Vealthx?",
@@ -35,27 +35,9 @@ const Fold5 = () => {
     }
   ];
 
-  const faqAnswerStyle = {
-    '& ul': {
-      listStyleType: 'disc',
-      paddingLeft: '1.5rem',
-      marginTop: '0.5rem',
-      marginBottom: '0.5rem',
-    },
-    '& ol': {
-      listStyleType: 'decimal',
-      paddingLeft: '1.5rem',
-      marginTop: '0.5rem',
-      marginBottom: '0.5rem',
-    },
-    '& li': {
-      marginBottom: '0.25rem',
-    },
-  };
-
   return (
     <div className='py-8 '>
-      <h1 className='text-center text-4xl sm:text-5xl md:text-6xl font-bold text-[#4F37BF]'>Get All the Answers You Need </h1>
+      <h1 className='text-center text-3xl sm:text-5xl md:text-5xl font-bold text-[#4F37BF]'>Discover All the Answers You’re Looking For! </h1>
       {/* <h2 className="text-center text-3xl sm:text-4xl md:text-5xl font-semibold">FAQs!</h2> */}
 
       
@@ -76,7 +58,6 @@ const Fold5 = () => {
               <div className="p-4 bg-gray-50">
                 <div 
                   className="text-base sm:text-lg faq-answer"
-                  style={faqAnswerStyle}
                   dangerouslySetInnerHTML={{ __html: faq.answer }}
                 />
               </div>

@@ -16,13 +16,12 @@ const Fold1 = () => {
             <span className='block'>See Them All In One Place</span>
             <span className='block'>Secure Your Future</span>
         </h1>
-        <div className='bg-white text-black font-bold py-4 px-6 w-fit rounded-full text-xl mt-4 hover:bg-gray-200 transition-colors'>
-          <Link to='/download'>Download the App <IoMdDownload className='inline w-7 h-7 ml-6'/> </Link>
-        </div>
-
-        <p className='text-white text-base sm:text-lg md:text-xl lg:text-2xl xl:text-3xl max-w-4xl mt-7'>
+        <p className='text-white text-base sm:text-lg md:text-xl lg:text-2xl xl:text-3xl max-w-4xl '>
             Vealthx lets you aggregate investments, secure them into your account, make dynamic wills, update nominees, and much more
         </p>
+        <div className='bg-white text-black font-bold py-4 px-6 w-fit rounded-full text-xl mt-10 hover:bg-gray-200 transition-colors'>
+          <Link to='/download'>Download the App <IoMdDownload className='inline w-7 h-7 ml-6'/> </Link>
+        </div>
     </div>
   )
 }

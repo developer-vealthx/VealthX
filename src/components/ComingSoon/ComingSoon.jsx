@@ -50,7 +50,7 @@ const ComingSoon = () => {
             Something <span className="text-yellow-400">Awesome</span> is Coming
           </h2>
           <p className="text-base sm:text-lg md:text-xl lg:text-2xl mb-5 sm:mb-7">
-            In the meantime, stay tuned. We are almost ready to launch.
+            Stay tuned— exciting things are on the horizon! In the meantime, take a sneak peek at our product preview!!
           </p>
           <div className="flex space-x-3 sm:space-x-5">
             <div className="flex flex-col items-center">

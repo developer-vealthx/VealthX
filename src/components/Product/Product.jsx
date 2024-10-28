@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import bgImage from "./assets/images/bg.png";
-import videoFile from "./assets/images/vealthx.mp4"; // Import your video file
+import video from "./assets/images/vealthx.mp4" // Import your video file
 
 const Hero = () => {
   const [timeLeft, setTimeLeft] = useState({
@@ -47,7 +47,7 @@ const Hero = () => {
             Something <span className="text-yellow-400">Awesome</span> is Coming
           </h1>
           <p className="text-sm sm:text-lg md:text-xl mb-6 sm:mb-8">
-            In the meantime, stay tuned. We are almost ready to launch.
+            Stay tuned— exciting things are on the horizon! In the meantime, take a sneak peek at our product preview!!
           </p>
           <div className="flex space-x-4 sm:space-x-6">
             {["Days", "Hours", "Minutes", "Seconds"].map((label, index) => {
@@ -72,15 +72,15 @@ const Hero = () => {
         </div>
 
         {/* Video Section */}
-        <div className="flex items-center justify-center w-full h-[60vh] md:h-[80vh] lg:h-[100vh] mt-10 overflow-x-hidden">
+        <div className="flex items-center justify-center w-full mt-10 overflow-x-hidden">
           <video
-            className="h-full w-auto max-w-full object-contain rounded-3xl"
+            className="max-w-full object-contain rounded-[11%] h-[70vh] "
             autoPlay
             loop
             muted
             playsInline
           >
-            <source src={videoFile} type="video/mp4" />
+            <source src={video} type="video/mp4" />
             Your browser does not support the video tag.
           </video>
         </div>

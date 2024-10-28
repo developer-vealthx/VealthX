@@ -1,5 +1,5 @@
 import React from 'react';
-import Trackimg from './assets/images/Traction_and_roadmap.jpg';
+import Trackimg from './assets/images/ourjourney.jpg';
 import Background from './assets/images/OurJourneybg.png';
 import Boxground from './assets/images/boxbg.png';
 
@@ -15,7 +15,7 @@ const OurJourney = () => {
 
       {/* Title Section */}
       <div className="flex items-center justify-center font-bold text-5xl sm:text-6xl md:text-7xl h-[20vh] text-center">
-        <div className="mt-[15px]">Our Story</div>
+        <div className="mt-[15px]">Our Journey</div>
       </div>
 
       <div className="flex flex-col md:flex-row justify-between items-start h-auto md:h-[90%] p-4 md:p-0">
@@ -33,7 +33,7 @@ const OurJourney = () => {
           }}
         >
           <p className="mb-6">
-            At <b>Vealthx</b>, we are driven by a singular mission: to empower families and individuals in securing and preserving their financial legacy. Our journey began with the recognition of a pressing issue—over ₹80,000 crores of unclaimed funds in India, coupled with the complexity of wealth management in today’s fast-evolving financial landscape. We saw not only a challenge but also an opportunity to transform the way wealth is discovered, managed, and transferred across generations.
+            At <b>Vealthx</b>, we are driven by a singular mission: to empower families and individuals in securing and preserving their financial legacy. Our journey began with the recognition of a pressing issue—over over ₹2,00,000 (two Lakh Crores) Crores of unclaimed funds in India, coupled with the complexity of wealth management in today’s fast-evolving financial landscape. We saw not only a challenge but also an opportunity to transform the way wealth is discovered, managed, and transferred across generations.
           </p>
           <p>
             Our founders bring together decades of experience in finance, technology, and innovation. Our platform is built on cutting-edge technologies like AI/ML, combined with regulatory frameworks such as the <b>RBI’s Account Aggregator</b> and <b>Consent Frameworks</b>, to deliver a seamless, secure, and transparent experience in asset discovery and wealth management.

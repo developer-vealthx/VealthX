@@ -2,6 +2,7 @@ import React from 'react'
 import { Link, useLocation } from 'react-router-dom'
 import vealtxLogo from './assets/images/vealthx_logo.png'
 import { FaInstagram, FaFacebook, FaLinkedin, FaXTwitter } from "react-icons/fa6";
+import qrCode from './assets/images/qrCode.jpg'
 
 const PURPLE_COLOR = '#4F37BF';
 const HOVER_PURPLE_COLOR = '#3D2A9D';
@@ -27,14 +28,15 @@ const Footer = () => {
         <div className='p-4 sm:p-8 md:p-12 bg-black w-full text-white'>
             <div className='flex flex-col lg:flex-row space-y-8 lg:space-y-0 lg:space-x-8'>
                 <div className='w-full lg:w-3/5'>
-                    <h1 className='text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl mb-4'>Excited to empower the future?</h1>
-                    <h2 className='text-gray-300 text-sm sm:text-base md:text-lg lg:text-xl'>
+                    <h1 className='text-xl sm:text-2xl md:text-3xl lg:text-3xl mb-4'>Are You on Top of Your Finances?<br/>Take the Vealthx Survey to See If You’re Covered!</h1>
+                    {/* <h2 className='text-gray-300 text-sm sm:text-base md:text-lg lg:text-xl'>
                         Join us as an Investor and Mentor to help shape the success of
                         <br className='hidden sm:block' /> our team with your expertise and support!
                     </h2>
                     <div className='bg-white text-black font-bold py-2 px-4 w-fit rounded-full text-sm mt-8 hover:bg-gray-200 transition-colors'>
                         <Link to='/Investor'>Be our Investor & Mentor</Link>
-                    </div>
+                    </div> */}
+                    <img src={qrCode} className='w-[15vh]'/>
                 </div>
 
                 <div className='w-full lg:w-2/5'>

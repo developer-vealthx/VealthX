@@ -84,132 +84,97 @@ const Fold2 = () => {
 
   return (
     <>
-      <div className="fold2 bg-white w-full rounded-t-[2%] relative pt-[10vh]">
-        <div className="min-h-screen flex flex-col md:flex-row">
-          <div className="w-full md:w-1/2 lg:w-[60%]  px-10 lg:px-24 2xl:pl-52 flex justify-center flex-col py-10 md:py-0">
-            <h1 className="font-bold text-5xl md:text-7xl">Discover</h1>
-            <p className="text-lg text-justify md:text-xl font-semibold mt-8 md:mt-14 lg:mt-28 lg:w-[85%]">
-              Uncover hidden, unclaimed, or forgotten assets. Whether it's lost
-              bank accounts, insurance policies, retirement funds, or other
-              financial assets, VealthX Discovery searches through multiple
-              databases to identify these opportunities. By using advanced
-              algorithms and comprehensive data sources, the feature streamlines
-              the asset recovery process, making it easy for you and your
-              families to find and claim what is rightfully yours. With just a
-              few clicks, you can unlock the potential of your untapped
-              financial resources.
-            </p>
+      <div className="fold2 bg-white w-full rounded-t-[2%] relative py-4">  {/* pt-[10vh] */}
 
+        <div className="flex flex-col sm:flex-row">
+          <div className="w-full md:w-1/2 sm:h-[80vh] px-10 sm:pr-0 sm:pl-10 lg:pl-20 2xl:pl-40 flex justify-evenly items-between flex-col sm:pt-28 pb-4">
+            <h1 className="font-bold text-5xl md:text-6xl lg:text-7xl">Discover</h1>
+            <p className="text-lg md:text-xl text-justify font-semibold mt-4">
+            Uncover hidden, unclaimed, and forgotten assets effortlessly with Vealthx Discovery. From lost bank accounts and insurance policies to retirement funds and other financial assets, our advanced search algorithms comb through multiple databases to find opportunities that may belong to you. Leveraging extensive data sources, VealthX streamlines the asset recovery process, simplifying it for you and your family. With just a few clicks, reveal and reclaim the financial resources that are rightfully yours unlocking the full potential of your wealth has never been easier.
+            </p>
             <Link
-              to="/discover"
-              className="w-fit text-center mt-8 md:mt-10 lg:mt-24 py-3 px-8 text-xl font-semibold bg-black text-white rounded-full"
+              to="/login"
+              className="w-fit text-center py-3 px-8 text-lg md:text-xl font-semibold bg-black text-white rounded-full mt-4"
             >
-              Discover
+              Discover More
             </Link>
           </div>
-          <div className="w-full md:w-1/2 h-screen lg:w-[40%] flex items-center justify-center py-10 md:py-0">
+          <div className="w-full md:w-1/2 md:h-[80vh] flex items-center justify-center">
             <img
               src={Discover}
               alt="iphone"
-              className="iphoneImg absolute md:w-[30vh] xl:w-[40vh] h-auto"
+              className="iphoneImg w-[20vh] md:w-[25vh] lg:w-[28vh] xl:w-[33vh]"
               style={{ transition: "all 0.5s cubic-bezier(0.19, 1, 0.22, 1)" }}
             />
           </div>
         </div>
 
-        <div className="fold22 min-h-screen flex flex-col md:flex-row">
-          <div className="w-full md:w-1/2 h-screen lg:w-[40%] order-2 md:order-1  flex items-center justify-center py-10 md:py-0">
+        <div className="fold22 min-h-[85vh] flex flex-col sm:flex-row mt-24">
+          <div className="w-full md:w-1/2 md:h-[80vh] flex items-center justify-center order-2 sm:order-1">
             <img
               src={Claim}
               alt="iphone"
-              className="w-[35vh] md:w-[30vh] xl:w-[38vh] h-auto"
+              className="w-[25vh] md:w-[28vh] lg:w-[33vh]"
             />
           </div>
-          <div className="w-full md:w-1/2 lg:w-[60%] order-1 md:order-2 2xl:pl-52  px-10 lg:px-24 flex justify-center flex-col py-10 md:py-0">
+          <div className="w-full md:w-1/2 sm:h-[80vh] px-10 sm:pl-0 sm:pr-10 lg:pr-20 2xl:pr-40 flex justify-evenly items-between flex-col sm:pt-28 order-1 sm:order-2 pb-4">
             <h1 className="font-bold text-5xl md:text-7xl">Claims</h1>
-            <p className="text-lg text-justify md:text-xl font-semibold mt-8 md:mt-14 lg:mt-28 lg:w-[85%]">
-              Simplifies the process of claiming unclaimed or undiscovered
-              assets once they are identified. After using the Discovery feature
-              to locate potential assets, you can initiate and manage claims
-              directly through the platform. This feature guides you through the
-              necessary steps, helping them complete the required documentation
-              and submissions efficiently. VealthX also provides support and
-              resources to navigate legal or bureaucratic hurdles, ensuring you
-              can successfully recover and reclaim your assets with minimal
-              hassle. The Claims feature empowers you to take control of your
-              financial recovery with confidence.
+            <p className="text-lg md:text-xl text-justify font-semibold mt-4">
+            Simplifies the process of claiming unclaimed or undiscovered assets once they are identified. After using our Discovery feature to locate potential assets, you can easily initiate and manage your claims directly through the platform. This feature walks you through each necessary step, ensuring you complete all required documentation and submissions efficiently. To further support you, Vealthx offers resources to navigate any legal or bureaucratic challenges, making it easier for you to recover and reclaim your assets with minimal hassle. With our Claims feature, you can confidently take charge of your financial recovery and secure what is rightfully yours.
             </p>
             <Link
-              to="/discover"
-              className="w-fit text-center mt-8 md:mt-10 lg:mt-24 py-3 px-8 text-xl font-semibold bg-black text-white rounded-full"
+              to="/login"
+              className="w-fit text-center py-3 px-8 text-xl font-semibold bg-black text-white rounded-full mt-4"
             >
-              Claim
+              Claim More
             </Link>
           </div>
         </div>
 
-        <div className="fold23 min-h-screen flex flex-col md:flex-row">
-          <div className="w-full md:w-1/2 lg:w-[60%]  px-10 lg:px-24 2xl:pl-52 flex justify-center flex-col py-10 md:py-0">
+        <div className="fold23 min-h-[85vh] flex flex-col sm:flex-row mt-24">
+          <div className="w-full md:w-1/2 sm:h-[80vh] px-10 sm:pr-0 sm:pl-10 lg:pl-20 2xl:pl-40 flex justify-evenly items-between flex-col sm:pt-28 pb-4">
             <h1 className="font-bold text-5xl md:text-7xl">Aggregate</h1>
-            <p className="text-lg text-justify md:text-xl font-semibold mt-8 md:mt-14 lg:mt-28 lg:w-[85%]">
-              Consolidates all discovered assets into one comprehensive view,
-              allowing you to easily manage and track your financial recoveries
-              as well as your current assets which you own and inherit. This
-              feature gathers information from various asset types—such as bank
-              accounts, insurance policies, retirement funds, and more—into a
-              single dashboard. By providing a holistic view of your asset
-              portfolio, you can stay organized and monitor the status of each
-              claim in real-time. The Aggregate feature ensures that nothing is
-              overlooked, streamlining the entire recovery process for maximum
-              efficiency and clarity.
+            <p className="text-lg md:text-xl text-justify font-semibold mt-4">
+            Consolidates all discovered assets into one comprehensive view, making it easy for you to manage and track both your financial recoveries and current assets—whether owned or inherited. This feature collects information from various asset types, including bank accounts, insurance policies, retirement funds, and more, all within a single dashboard. With a holistic view of your asset portfolio, you can stay organized and monitor the status of each claim in real-time. The Aggregate feature ensures that nothing goes overlooked, streamlining the entire recovery process for maximum efficiency and clarity. Take control of your financial journey with confidence!
             </p>
             <Link
-              to="/discover"
-              className="w-fit text-center mt-8 md:mt-10 lg:mt-24 py-3 px-8 text-xl font-semibold bg-black text-white rounded-full"
+              to="/login"
+              className="w-fit text-center py-3 px-8 text-xl font-semibold bg-black text-white rounded-full mt-4"
             >
-              Aggregate
+              Aggregate More
             </Link>
           </div>
-          <div className="w-full md:w-1/2 h-screen lg:w-[40%] flex items-center justify-center py-10 md:py-0">
+          <div className="w-full md:w-1/2 md:h-[80vh] flex items-center justify-center">
             <img
               src={Aggregate}
               alt="iphone"
-              className="md:w-[30vh] xl:w-[40vh] h-auto"
+              className="w-[25vh] md:w-[28vh] lg:w-[33vh]"
             />
           </div>
         </div>
 
-        <div className="fold24 min-h-screen flex flex-col md:flex-row">
-          <div className="w-full md:w-1/2 h-screen lg:w-[40%] order-2 md:order-1  flex items-center justify-center py-10 md:py-0">
+        <div className="fold24 min-h-[85vh] flex flex-col sm:flex-row mt-24">
+          <div className="w-full md:w-1/2 md:h-[80vh] flex items-center justify-center order-2 sm:order-1">
             <img
               src={Will}
               alt="iphone"
-              className="md:w-[30vh] xl:w-[40vh] h-auto"
+              className="w-[25vh] md:w-[28vh] lg:w-[33vh]"
             />
           </div>
-          <div className="w-full md:w-1/2 lg:w-[60%] order-1 md:order-2 2xl:pl-52  px-10 lg:px-24 flex justify-center flex-col py-10 md:py-0">
+          <div className="w-full md:w-1/2 sm:h-[80vh] px-10 sm:pl-0 sm:pr-10 lg:pr-20 2xl:pr-40 flex justify-evenly items-between flex-col sm:pt-28 order-1 sm:order-2 pb-4">
             <h1 className="font-bold text-5xl md:text-7xl">Make a Will</h1>
-            <p className="text-lg text-justify md:text-xl font-semibold mt-8 md:mt-14 lg:mt-28 lg:w-[85%]">
-              Empowers you to easily draft and customize your own legal will
-              online, ensuring your assets are distributed according to your
-              wishes. This feature simplifies the process of estate planning by
-              providing a step-by-step guide to creating a will that meets legal
-              standards. You can specify beneficiaries, designate asset
-              distribution, and include personal instructions—all within a
-              user-friendly interface. Additionally, Vealthx offers guidance on
-              updating and maintaining the will over time, ensuring it remains
-              aligned with life changes and legal requirements. This feature
-              gives you peace of mind, knowing your legacy is secured and your
-              loved ones are protected.
+            <p className="text-lg md:text-xl text-justify font-semibold mt-4">
+            Empower yourself to effortlessly create and customize your own legal will online, ensuring that your assets are distributed according to your wishes. This feature transforms estate planning into a straightforward journey, offering a step-by-step guide to crafting a will that meets all legal standards. You can easily specify beneficiaries, designate asset distribution, and include personal instructions—all through a userfriendly interface designed with you in mind. Moreover, Vealthx provides ongoing guidance for updating and maintaining your will, ensuring it evolves alongside your life changes and stays compliant with legal requirements. With this feature, you can achieve peace of mind, knowing that your legacy is secure, and your loved ones are well protected. Take the first step toward safeguarding your future today!
             </p>
             <Link
-              to="/discover"
-              className="w-fit text-center mt-8 md:mt-10 lg:mt-24 py-3 px-8 text-xl font-semibold bg-black text-white rounded-full"
+              to="/login"
+              className="w-fit text-center py-3 px-8 text-xl font-semibold bg-black text-white rounded-full mt-4"
             >
               Make a will
             </Link>
           </div>
         </div>
+
       </div>
     </>
   );
