@@ -12,7 +12,7 @@ const ComingSoon = () => {
 
   // Countdown logic
   useEffect(() => {
-    const targetDate = new Date("2024-12-31T00:00:00"); // Replace with your target date
+    const targetDate = new Date("2025-02-31T00:00:00"); // Replace with your target date
     const interval = setInterval(() => {
       const currentTime = new Date();
       const difference = targetDate - currentTime;

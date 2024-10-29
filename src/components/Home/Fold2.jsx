@@ -96,7 +96,7 @@ const Fold2 = () => {
               to="/login"
               className="w-fit text-center py-3 px-8 text-lg md:text-xl font-semibold bg-black text-white rounded-full mt-4"
             >
-              Discover More
+              More...
             </Link>
           </div>
           <div className="w-full md:w-1/2 md:h-[80vh] flex items-center justify-center">
@@ -126,7 +126,7 @@ const Fold2 = () => {
               to="/login"
               className="w-fit text-center py-3 px-8 text-xl font-semibold bg-black text-white rounded-full mt-4"
             >
-              Claim More
+              More...
             </Link>
           </div>
         </div>
@@ -141,7 +141,7 @@ const Fold2 = () => {
               to="/login"
               className="w-fit text-center py-3 px-8 text-xl font-semibold bg-black text-white rounded-full mt-4"
             >
-              Aggregate More
+              More...
             </Link>
           </div>
           <div className="w-full md:w-1/2 md:h-[80vh] flex items-center justify-center">
@@ -170,7 +170,7 @@ const Fold2 = () => {
               to="/login"
               className="w-fit text-center py-3 px-8 text-xl font-semibold bg-black text-white rounded-full mt-4"
             >
-              Make a will
+              More...
             </Link>
           </div>
         </div>

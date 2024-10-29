@@ -14,7 +14,7 @@ const people = [
   },
   {
     name: "Parashuram Hallur",
-    role: "CPO & CGO",
+    role: "To be CPO & CGO",
     imageUrl: Parashuram,
   },
   {

@@ -40,7 +40,7 @@ const Footer = () => {
                 </div>
 
                 <div className='w-full lg:w-2/5'>
-                    <div className="flex items-center justify-left w-full">
+                    {/* <div className="flex items-center justify-left w-full">
                         <input
                             type="email"
                             placeholder="Enter your email"
@@ -49,7 +49,7 @@ const Footer = () => {
                         <button className="h-12 w-1/3 bg-[#4F37BF] text-white rounded-r-lg border-y-4 border-r-4 border-[#4F37BF] focus:outline-none hover:bg-[#3D2A9D] transition-colors">
                             Get started
                         </button>
-                    </div>
+                    </div> */}
 
                     <div className="flex flex-wrap justify-between mt-8 gap-y-6">
                         <div className="w-1/2 sm:w-2/6">
@@ -86,7 +86,7 @@ const Footer = () => {
                             </h1>
                             <h1>
                                 <a href="tel:+911234566889" className="mb-1">
-                                    phone no. : <span className='hover:underline'>+91 1234566889</span>
+                                    phone no. : <span className='hover:underline'>+91 9429691489</span>
                                 </a>
                             </h1>
                         </div>
