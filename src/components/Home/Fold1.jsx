@@ -44,7 +44,7 @@ const Fold1 = () => {
           <div className='fixed inset-0 flex items-center justify-center bg-black bg-opacity-50 overlay p-8' onClick={handleOverlayClick}>
             <div className='bg-white p-6 rounded shadow-lg w-full sm:w-3/4 md:w-1/2 xl:w-1/4'>
               <h2 className='text-lg font-bold mb-4'>Our Download Feature is Coming Soon!</h2>
-              <p className=''>Get ready to unlock a world of possibilities with our upcoming search feature! Soon, you’ll be able to easily locate and manage your assets like never before. Stay tuned for a seamless experience that empowers you to discover hidden opportunities and take control of your financial future. We can’t wait to share this powerful tool with you!</p>
+              <p className=''>Get ready to unlock a world of possibilities with our upcoming download feature! Soon, you’ll be able to effortlessly access and save your assets with just a click. Stay tuned for a streamlined experience that empowers you to securely manage your financial resources anytime, anywhere. We can’t wait to share this essential tool with you!</p>
               <div className='mt-4'>
                 <button onClick={closeDialog} className='mr-2 bg-gray-300 px-4 py-2 rounded font-bold'>Close</button>
                 {/* Add any additional buttons for actions here */}

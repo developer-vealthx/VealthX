@@ -8,10 +8,10 @@ const PURPLE_COLOR = '#4F37BF';
 const HOVER_PURPLE_COLOR = '#3D2A9D';
 
 const SOCIAL_ICONS = [
-  { Icon: FaInstagram, link: '#' },
-  { Icon: FaLinkedin, link: '#' },
-  { Icon: FaFacebook, link: '#' },
-  { Icon: FaXTwitter, link: '#' },
+  { Icon: FaInstagram, link: 'https://www.instagram.com/vealthx.media/' },
+  { Icon: FaLinkedin, link: 'https://www.linkedin.com/company/vealthx/' },
+//   { Icon: FaFacebook, link: '#' },
+  { Icon: FaXTwitter, link: 'https://x.com/vealthx' },
 ];
 
 const Footer = () => {
@@ -52,7 +52,7 @@ const Footer = () => {
                     </div>
 
                     <div className="flex flex-wrap justify-between mt-8 gap-y-6">
-                        <div className="w-1/2 sm:w-auto">
+                        <div className="w-1/2 sm:w-2/6">
                             <h3 className="font-bold mb-2">COMPANY</h3>
                             <Link 
                                 to='/about' 
@@ -63,7 +63,7 @@ const Footer = () => {
                             </Link>
                         </div>
 
-                        <div className="w-1/2 sm:w-auto">
+                        <div className="w-1/2 sm:w-2/6">
                             <h3 className="font-bold mb-2">LEGAL</h3>
                             {['PrivacyPolicy', 'TermsConditions', 'RefundPolicy'].map((path) => (
                                 <Link 
@@ -76,6 +76,22 @@ const Footer = () => {
                                 </Link>
                             ))}
                         </div>
+
+                        <div className="w-full md:w-2/6 lg:w-full 2xl:w-2/6">
+                            <h3 className="font-bold mb-2">Contact us</h3>
+                            <h1>
+                                <a href="mailto:founders@vealthx.com" className="mb-1">
+                                    email: <span className='hover:underline'>founders@vealthx.com</span>
+                                </a>
+                            </h1>
+                            <h1>
+                                <a href="tel:+911234566889" className="mb-1">
+                                    phone no. : <span className='hover:underline'>+91 1234566889</span>
+                                </a>
+                            </h1>
+                        </div>
+
+
                     </div>
                 </div>
             </div>
